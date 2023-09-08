@@ -76,21 +76,21 @@ body {
 </center>
 
     <!-- proxys -->
-    <script src="valow.gq"></script>
+    <div id="iframe-container">
+        <iframe id="google-iframe" src="" frameborder="0"></iframe>
+    </div>
 
-<body>
+    <!-- Include your JavaScript code here -->
+    <script>
+        // Get references to the button and the iframe
+        const button = document.getElementById("button1");
+        const iframe = document.getElementById("google-iframe");
 
-<button id="button1" onclick="light()">OPEN</button>
-<iframe id="forbutton1" src="" title="Server 1">
-</iframe>
-
-<script>
-function light() {
-    var iframe = $("#forbutton1");
-    debugger;
-    iframe.attr("src", "valow.gq"); 
-}
-</script>
-    
+        // Add a click event listener to the button
+        button.addEventListener("click", function() {
+            // Set the iframe's src attribute to Google.com
+            iframe.src = "https://www.google.com";
+        });
+    </script>
 </body>
 </html>
