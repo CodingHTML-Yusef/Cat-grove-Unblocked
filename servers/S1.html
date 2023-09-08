@@ -2,12 +2,7 @@
 <html>
   <head>
     <title>Server 1</title>
-	<style>
-		iframe {
-			width: 100%;
-			height: 900px;
-		}
-	</style>
+	
 </head>
   
 <body>
@@ -18,7 +13,14 @@ body {
            background: linear-gradient(to right, #348757, #53B4C6);
        }
 /* background gradient end */
-</style>
+body {
+    height:100%;
+}
+iframe {
+    height:100%;
+    width:90%;
+}
+  </style>
 
   <iframe src="/examples/html/hello.html" name="frame1"></iframe>
     <p><a href="https://valow.gq" target="frame1">Start</a></p>
