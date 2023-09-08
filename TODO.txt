@@ -1,0 +1,4 @@
+fix proxys being scrollable
+add games
+add apps
+make better formattings
