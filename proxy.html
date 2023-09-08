@@ -68,11 +68,11 @@ body {
 
 
 <center>
-    <button onclick="location.href = 'S1.html'; class="button button1">Server_1</button>
-    <button class="button button2">Server_2</button>
-    <button class="button button3">Server_3</button>
-    <button class="button button4">Server_4</button>
-    <button class="button button5">Server_5</button>
+    <button id="button1" class="button button1">Server_1</button>
+    <button id="button2" class="button button2">Server_2</button>
+    <button id="button3" class="button button3">Server_3</button>
+    <button id="button4" class="button button4">Server_4</button>
+    <button id="button5" class="button button5">Server_5</button>
 </center>
 
     <!-- proxys -->
@@ -83,6 +83,11 @@ mathtestaxamschool.zcvx.cf
 theplan.planb.gq
 gabeisagoober.bluepill.ml
 -->
-    
+
+    <script type="text/javascript">
+    document.getElementById("button1").onclick = function () {
+        location.href = "S1.html";
+    };
+</script>
 </body>
 </html>
